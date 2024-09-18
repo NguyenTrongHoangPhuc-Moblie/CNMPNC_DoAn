@@ -1,0 +1,89 @@
+﻿@model MongoWeb.Models.Products
+
+@{
+    ViewBag.Title = "ThemSanPham";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h3>Thêm Sản Phẩm Mới</h3>
+        </div>
+    </div>
+    @using (Html.BeginForm("ThemSanPham", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="ProductName">Tên sản phẩm</label>
+                @Html.TextBoxFor(m => m.ProductName, new { @class = "form-control", placeholder = "Tên sản phẩm" })
+                @Html.ValidationMessageFor(m => m.ProductName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="BrandName">Tên thương hiệu</label>
+                @Html.TextBoxFor(m => m.BrandName, new { @class = "form-control", placeholder = "Tên sản thương hiệu" })
+                @Html.ValidationMessageFor(m => m.BrandName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="Category">Danh mục sản phẩm</label>
+                @Html.TextBoxFor(m => m.Category, new { @class = "form-control", placeholder = "Danh mục sản phẩm" })
+                @Html.ValidationMessageFor(m => m.Category, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="Price">Giá</label>
+                @Html.TextBoxFor(m => m.Price, new { @class = "form-control", placeholder = "Giá tiền" })
+                @Html.ValidationMessageFor(m => m.Price, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="ProductImages">Hình ảnh</label>
+                <input type="file" name="ProductImages" class="form-control" multiple />
+                @Html.ValidationMessageFor(m => m.ProductImage, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="Description">Mô tả</label>
+                @Html.TextBoxFor(m => m.Description, new { @class = "form-control", placeholder = "Mô tả" })
+                @Html.ValidationMessageFor(m => m.Description, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="CountInStock">Số lượng</label>
+                @Html.TextBoxFor(m => m.CountInStock, new { @class = "form-control", placeholder = "Số lượng" })
+                @Html.ValidationMessageFor(m => m.CountInStock, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <input type="submit" class="btn btn-primary" value="Thêm sản phẩm" />
+                <a href="@Url.Action("QuanLy", "Admin")" class="btn btn-warning">Quay lại</a>
+            </div>
+        </div>
+    }
+</div>

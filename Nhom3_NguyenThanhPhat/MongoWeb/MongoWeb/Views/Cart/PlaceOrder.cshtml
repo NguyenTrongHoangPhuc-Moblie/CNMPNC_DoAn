@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Place Order";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@model MongoWeb.Models.Order
+
+<section class="order-area">
+    <div class="container" data-padding-top="62">
+        <h2>Đặt hàng</h2>
+        @using (Html.BeginForm("PlaceOrder", "Cart", FormMethod.Post))
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.Email, new { @class = "control-label" })
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Email)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.ShippingAddress, new { @class = "control-label" })
+                @Html.TextBoxFor(m => m.ShippingAddress, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.ShippingAddress)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.PaymentMethod, new { @class = "control-label" })
+                @Html.TextBoxFor(m => m.PaymentMethod, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.PaymentMethod)
+            </div>
+
+            <input type="submit" value="Đặt hàng" class="btn btn-primary" />
+        }
+    </div>
+</section>

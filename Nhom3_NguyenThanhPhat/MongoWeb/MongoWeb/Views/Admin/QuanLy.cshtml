@@ -1,0 +1,41 @@
+﻿@model IEnumerable<MongoWeb.Models.Products>
+@{
+    ViewBag.Title = "QuanLy";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+<div class="container-fluid">
+    <!-- Products Management -->
+    <div class="card">
+        <div class="card-body">
+            <h3>Quản Lý Sản Phẩm</h3>
+        </div>
+    </div>
+    <h5><a href="@Url.Action("ThemSanPham", "Admin")">Bấm vào đây để thêm sản phẩm</a></h5>
+    <table class="table table-bordered">
+        <tr>
+            <th>Mã sản phẩm</th>
+            <th>Tên sản phẩm</th>
+            <th>Thương hiệu</th>
+            <th>Danh mục</th>
+            <th>Giá</th>
+            <th>Mô tả</th>
+            <th>Số lượng tồn</th>
+            <th>Chỉnh sửa</th>
+        </tr>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.ProductId</td>
+                <td>@product.ProductName</td>
+                <td>@product.BrandName</td>
+                <td>@product.Category</td>
+                <td>@product.Price</td>
+                <td>@product.Description</td>
+                <td>@product.CountInStock</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Admin", new { id = product.ProductId })">Update</a>
+                    <a href="@Url.Action("Delete", "Admin", new { id = product.ProductId })">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
