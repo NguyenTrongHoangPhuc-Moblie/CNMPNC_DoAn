@@ -1,0 +1,83 @@
+﻿@model MongoWeb.Models.Register
+
+@{
+    ViewBag.Title = "ThemUser";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h3>Thêm User Mới</h3>
+        </div>
+    </div>
+    @using (Html.BeginForm("ThemUser", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="Username">UserName</label>
+                @Html.TextBoxFor(m => m.Username, new { @class = "form-control", placeholder = "Nhập Username" })
+                @Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="FullName">FullName</label>
+                @Html.TextBoxFor(m => m.FullName, new { @class = "form-control", placeholder = "Nhập FullName" })
+                @Html.ValidationMessageFor(m => m.FullName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="Email">Email</label>
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Nhập Email" })
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "Email" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="Password">Mật khẩu</label>
+                @Html.TextBoxFor(m => m.Password, new { @class = "form-control", placeholder = "Nhập Password", type = "password" })
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="PhoneNumber">Số điện thoại</label>
+                @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control", placeholder = "Nhập PhoneNumber" })
+                @Html.ValidationMessageFor(m => m.PhoneNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="Address">Địa chỉ</label>
+                @Html.TextBoxFor(m => m.Address, new { @class = "form-control", placeholder = "Nhập Address" })
+                @Html.ValidationMessageFor(m => m.Address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <input type="hidden" asp-for="UserId" />
+                <input type="submit" class="btn btn-primary" value="Thên User" />
+                <a href="@Url.Action("QuanLy", "Admin")" class="btn btn-warning">Quay lại</a>
+            </div>
+        </div>
+    }
+</div>
+
+

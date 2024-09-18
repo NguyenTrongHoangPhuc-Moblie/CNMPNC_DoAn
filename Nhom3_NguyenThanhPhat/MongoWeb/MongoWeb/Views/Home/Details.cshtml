@@ -1,0 +1,107 @@
+﻿@*@{
+        ViewBag.Title = "Details";
+        Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+    }
+
+    @model MongoWeb.Models.Products
+
+    <section class="product-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="~/assets/img/shop/@Model.ProductImage.First()" alt="@Model.ProductName" class="img-fluid" />
+                </div>
+                <div class="col-md-6">
+                    <h1>@Model.ProductName</h1>
+                    <p>@Model.Description</p>
+                    <p><strong>Price:</strong> @Model.Price</p>
+                    <a href="@Url.Action("AddToCart", new { id = Model.ProductId })" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>*@
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@model MongoWeb.Models.Products
+
+<section class="product-area product-single-area">
+    <div class="container pt-60 pb-0">
+        <div class="row">
+            <div class="col-12">
+                <div class="product-single-item" data-margin-bottom="62">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!--== Start Product Thumbnail Area ==-->
+                            <div class="product-thumb">
+                                <div class="swiper-container single-product-thumb-content single-product-thumb-slider2">
+                                    <div class="swiper-wrapper">
+                                        @foreach (var image in Model.ProductImage)
+                                        {
+                                            <div class="swiper-slide zoom zoom-hover">
+                                                <a class="lightbox-image" data-fancybox="gallery" href="~/assets/img/shop/@image">
+                                                    <img src="~/assets/img/shop/@image" alt="@Model.ProductName">
+                                                    <span class="product-flag-new">New</span>
+                                                </a>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                                <div class="swiper-container single-product-nav-content single-product-nav-slider2">
+                                    <div class="swiper-wrapper">
+                                        @foreach (var image in Model.ProductImage)
+                                        {
+                                            <div class="swiper-slide">
+                                                <img src="~/assets/img/shop/@image" alt="@Model.ProductName">
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                            <!--== End Product Thumbnail Area ==-->
+                        </div>
+                        <div class="col-md-6">
+                            <!--== Start Product Info Area ==-->
+                            <div class="product-single-info mt-sm-70">
+                                <h1 class="title">@Model.ProductName</h1>
+                                <div class="product-info">
+                                    <div class="star-content">
+                                        <i class="ion-md-star"></i>
+                                        <i class="ion-md-star"></i>
+                                        <i class="ion-md-star"></i>
+                                        <i class="ion-md-star"></i>
+                                        <i class="ion-md-star icon-color-gray"></i>
+                                    </div>
+                                </div>
+                                <div class="prices">
+                                    <span class="price">€@Model.Price</span>
+                                    <div class="tax-label">Tax included</div>
+                                </div>
+                                <div class="product-description">
+                                    <ul class="product-desc-list">
+                                        <li>Quantity:@Model.CountInStock</li>
+                                    </ul>
+                                </div>
+                                <div class="product-footer">
+                                    <a class="btn-product-add" href="@Url.Action("AddToCart", "Cart" ,new { id = Model.ProductId , quanlity = 1 })">Add to cart</a>
+                                    
+                                </div>
+                                <div class="product-wishlist-compare">
+                                    <a href="@Url.Action("Wishlist", new { id = Model.ProductId })" class="btn-wishlist"><i class="icon-heart"></i>Add to wishlist</a>
+                                    <a href="@Url.Action("Compare", new { id = Model.ProductId })" class="btn-compare"><i class="icon-shuffle"></i>Add to compare</a>
+                                </div>
+                                <div class="social-sharing">
+                                    <span>Share</span>
+                                    <div class="social-icons">
+                                        <a href="#"><i class="la la-facebook"></i></a>
+                                        <a href="#"><i class="la la-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--== End Product Info Area ==-->
+                        </div>
+
+

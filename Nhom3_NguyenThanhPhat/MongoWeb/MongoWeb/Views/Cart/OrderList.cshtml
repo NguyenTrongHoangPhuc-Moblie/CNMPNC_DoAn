@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "OrderList";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+@model IEnumerable<MongoWeb.Models.Order>
+
+@{
+    ViewBag.Title = "Order List";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>Hello, @ViewBag.UserName!</p>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+
+                <th>Email</th>
+                <th>Order Date</th>
+                <th>Total Amount</th>
+                <th>Shipping Address</th>
+                <th>Payment Method</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+
+                    <td>@order.Email</td>
+                    <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                    <td>@order.TotalAmount.ToString("C")</td>
+                    <td>@order.ShippingAddress</td>
+                    <td>@order.PaymentMethod</td>
+                    <td>@order.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No orders found.</p>
+}
+
+

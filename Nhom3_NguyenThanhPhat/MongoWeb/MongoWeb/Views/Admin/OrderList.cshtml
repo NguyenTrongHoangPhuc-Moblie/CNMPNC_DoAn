@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Order List";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+
+@model IEnumerable<MongoWeb.Models.Order>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Order Date</th>
+                <th>Total Amount</th>
+                <th>Shipping Address</th>
+                <th>Payment Method</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <form action="@Url.Action("UpdateStatus", "Admin")" method="post" style="display:inline;">
+                    @Html.AntiForgeryToken()
+                <tr>
+                    <td>@order.Email</td>
+                    <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                    <td>@order.TotalAmount.ToString("C")</td>
+                    <td>@order.ShippingAddress</td>
+                    <td>@order.PaymentMethod</td>
+                    <td>
+                        <input type="hidden" name="orderId" value="@order.Id" />
+                        <input type="hidden" name="email" value="@order.Email" /> <!-- Trường email ẩn -->
+                        <select name="status" class="form-control">
+                            <option value="Pending" @(order.Status == "Pending" ? "selected" : "")>Pending</option>
+                            <option value="Processing" @(order.Status == "Processing" ? "selected" : "")>Processing</option>
+                            <option value="Shipped" @(order.Status == "Shipped" ? "selected" : "")>Shipped</option>
+                            <option value="Delivered" @(order.Status == "Delivered" ? "selected" : "")>Delivered</option>
+                            <option value="Cancelled" @(order.Status == "Cancelled" ? "selected" : "")>Cancelled</option>
+                        </select>
+                        <button type="submit" class="btn btn-primary">Cập nhật</button>
+                    </td>
+                </tr>
+                </form>
+            }
+
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No orders found.</p>
+}

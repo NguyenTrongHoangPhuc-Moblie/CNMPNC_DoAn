@@ -1,0 +1,86 @@
+﻿@model MongoWeb.Models.Register
+
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<main class="main-content">
+    <!--== Start Account Area Wrapper ==-->
+    <section>
+        <div class="container" data-padding-top="62">
+            <h4 class="fz-24 mb-25">Create an account</h4>
+            <div class="row">
+                <div class="col-12">
+                    <div class="register-form-content">
+                        <div class="register-form">
+                            <span class="login-account">Already have an account? <a href="#/">Log in instead!</a></span>
+                            @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+                            {
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" }) <!-- Display summary of validation errors -->
+
+                                <div class="form-group row">
+                                    <label class="col-md-3" for="user_name">User Name</label>
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(m => m.Username, new { @class = "form-control", id = "user_name", placeholder = "Enter your username" })
+                                        @Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-3" for="full_name">Full Name</label>
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(m => m.FullName, new { @class = "form-control", id = "full_name", placeholder = "Enter your fullname" })
+                                        @Html.ValidationMessageFor(m => m.FullName, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-3" for="email">Email</label>
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", id = "email", placeholder = "Enter your email" })
+                                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-3" for="frm_pass">Password</label>
+                                    <div class="col-md-6">
+                                        <div class="pass-content">
+                                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", id = "frm_pass", placeholder = "Enter your password" })
+                                            <span class="show-pass" onclick="togglePasswordVisibility()">Show</span>
+                                        </div>
+                                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-3" for="phone_number">Phone Number</label>
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control", id = "phone_number", placeholder = "Enter your phone number" })
+                                        @Html.ValidationMessageFor(m => m.PhoneNumber, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-3" for="address">Address</label>
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(m => m.Address, new { @class = "form-control", id = "address", placeholder = "Enter your address" })
+                                        @Html.ValidationMessageFor(m => m.Address, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group row mb-15">
+                                    <div class="col-12 text-center">
+                                        <input type="submit" class="btn-save" value="Save" />
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--== End Account Area Wrapper ==-->
+</main>
