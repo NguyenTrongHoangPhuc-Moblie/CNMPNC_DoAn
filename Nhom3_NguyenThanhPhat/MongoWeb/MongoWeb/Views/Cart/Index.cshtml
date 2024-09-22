@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Giỏ hàng";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@model List<MongoWeb.Models.CartItem>
+
+<section class="product-area">
+    <div class="container" data-padding-top="62">
+        <div class="shopping-wishlist-wrap">
+            <div class="row">
+                <div class="col-12">
+                    <div class="wishlist-content">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th class="item-name">Name</th>
+                                        <th class="item-qty">Qty</th>
+                                        <th class="item-viewed">Image</th>
+                                        <th class="item-created">View detail</th>
+
+                                        <th class="item-delete">Delete</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td class="item-name">
+                                                <span><a href="@Url.Action("Details", "Home", new { id = item.Product.ProductId })">@item.Product.ProductName</a></span>
+                                            </td>
+                                            <td class="item-qty">
+                                                <span>@item.Quantity</span>
+                                            </td>
+                                            <td class="item-qty">
+                                                <span>
+                                                    @if (@item.Product.ProductImage != null && @item.Product.ProductImage.Any())
+                                                    {
+                                                        var firstImage = @item.Product.ProductImage.First();
+                                                        <img src="~/assets/img/shop/@firstImage" alt="@item.Product.ProductImage" />
+                                                    }
+
+                                                </span>
+                                                @*<span>@item.Product.ProductImage</span>*@
+                                            </td>
+
+                                            <td class="item-direct-link">
+                                                <span><a href="@Url.Action("Details", "Home", new { id = item.Product.ProductId })">View</a></span>
+                                            </td>
+                                            @*<td class="item-default">
+                                                    <span><i class="fa fa-check-square"></i></span>
+                                                </td>*@
+                                            <td class="item-delete">
+                                                <span><a href="@Url.Action("RemoveFromCart", "Cart", new { id = item.Product.ProductId })"><i class="fa fa-trash"></i></a></span>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="wishlist-footer">
+                            <!-- Điều hướng đến trang đặt hàng -->
+                            <a href="@Url.Action("PlaceOrder", "Cart")" class="btn-wishlist">Đặt hàng</a>
+                        </div>
+                        <div class="wishlist-footer">
+                            <a href="@Url.Action("Index", "Home")" class="btn-wishlist">Back to Your Account</a>
+                            <a href="@Url.Action("Index", "Home")" class="btn-wishlist">Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

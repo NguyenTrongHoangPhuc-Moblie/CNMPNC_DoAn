@@ -1,0 +1,210 @@
+﻿@model List<MongoWeb.Models.Products>
+@{
+
+    ViewBag.Title = "Product List";
+
+    ViewBag.Title = "Index";
+
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+
+<section class="product-area">
+    <div class="container pb-lg-60">
+        <div class="row">
+            <div class="col-sm-8 m-auto">
+                <div class="section-title text-center mb-30">
+                    <h2 class="title">Our Products</h2>
+                    <div class="desc">
+                        <p>Add our products to weekly line up</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="product-tabs-content-wrap">
+                    <ul class="nav mb-25 product-tab-nav" id="pills-tab" role="tablist">
+                        <!-- Tab for All Products -->
+                        <li role="presentation">
+                            <a class="active" id="all-products-tab" data-bs-toggle="pill" href="#all-products" role="tab" aria-controls="all-products" aria-selected="true">All Products</a>
+                        </li>
+                        @if (ViewBag.Categories != null)
+                        {
+                            foreach (var category in ViewBag.Categories as List<string>)
+                            {
+                                <li role="presentation">
+                                    <a id="@category.Replace(" ", "-").ToLower()-tab" data-bs-toggle="pill" href="#@category.Replace(" ", "-").ToLower()" role="tab" aria-controls="@category.Replace(" ", "-").ToLower()" aria-selected="false">@category</a>
+                                </li>
+                            }
+                        }
+                    </ul>
+
+                    <div class="tab-content product-tab-content" id="pills-tabContent">
+                        <!-- Content for All Products -->
+                        <div class="tab-pane fade show active" id="all-products" role="tabpanel" aria-labelledby="all-products-tab">
+                            <div class="row">
+                                @foreach (var product in Model)
+                                {
+                                    <div class="col-md-3">
+                                        <div class="product-item">
+                                            <div class="inner-content">
+                                                <div class="product-thumb">
+                                                    <a href="@Url.Action("Details", new { id = product.ProductId })">
+                                                        @if (product.ProductImage != null && product.ProductImage.Any())
+                                                        {
+                                                            var firstImage = product.ProductImage.First();
+                                                            var secondImage = product.ProductImage.Count > 1 ? product.ProductImage[1] : firstImage;
+
+                                                            <img src="~/assets/img/shop/@firstImage" alt="@product.ProductName" />
+                                                            if (product.ProductImage.Count > 1)
+                                                            {
+                                                                <img class="second-image" src="~/assets/img/shop/@secondImage" alt="@product.ProductName" />
+                                                            }
+                                                        }
+                                                    </a>
+
+                                                    <div class="product-action">
+                                                        <div class="addto-wrap">
+                                                            <a class="add-wishlist" href="@Url.Action("Wishlist", new { id = product.ProductId })" title="Add to wishlist">
+                                                                <i class="icon-heart icon"></i>
+                                                            </a>
+                                                            <a class="add-compare" href="@Url.Action("Compare", new { id = product.ProductId })" title="Add to compare">
+                                                                <i class="icon-shuffle icon"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="product-desc">
+                                                    <div class="product-info">
+                                                        <h4 class="title"><a href="@Url.Action("Details", new { id = product.ProductId })">@product.ProductName</a></h4>
+                                                        <div class="star-content">
+                                                            <i class="ion-md-star"></i>
+                                                            <i class="ion-md-star"></i>
+                                                            <i class="ion-md-star"></i>
+                                                            <i class="ion-md-star"></i>
+                                                            <i class="ion-md-star"></i>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="product-footer">
+                                                        @if (Session["UserName"] != null)
+                                                        {
+                                                            <a class="btn-product-add" href="@Url.Action("AddToCart", "Cart", new { id = product.ProductId, quantity = 1 })">Add to cart</a>
+                                                        }
+                                                        else
+                                                        {
+                                                            <a class="btn-product-add" href="@Url.Action("Login", "Home")">Login to add to cart</a>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                            <!-- Pagination Controls -->
+                            <div class="pagination-wrapper">
+                                @if (ViewBag.TotalPages > 1)
+                                {
+                                    <ul class="pagination">
+                                        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                                        {
+                                            <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                                                <a class="page-link" href="@Url.Action("Index", new { page = i })">@i</a>
+                                            </li>
+                                        }
+                                    </ul>
+                                }
+                            </div>
+                        </div>
+
+                        @if (ViewBag.Categories != null)
+                        {
+                            foreach (var category in ViewBag.Categories as List<string>)
+                            {
+                                <div class="tab-pane fade" id="@category.Replace(" ", "-").ToLower()" role="tabpanel" aria-labelledby="@category.Replace(" ", "-").ToLower()-tab">
+                                    <div class="row">
+                                        @foreach (var product in Model.Where(p => p.Category == category))
+                                        {
+                                            <div class="col-md-3">
+                                                <div class="product-item">
+                                                    <div class="inner-content">
+                                                        <div class="product-thumb">
+                                                            <a href="@Url.Action("Details", new { id = product.ProductId })">
+                                                                @if (product.ProductImage != null && product.ProductImage.Any())
+                                                                {
+                                                                    var firstImage = product.ProductImage.First();
+                                                                    var secondImage = product.ProductImage.Count > 1 ? product.ProductImage[1] : firstImage;
+
+                                                                    <img src="~/assets/img/shop/@firstImage" alt="@product.ProductName" />
+                                                                    if (product.ProductImage.Count > 1)
+                                                                    {
+                                                                        <img class="second-image" src="~/assets/img/shop/@secondImage" alt="@product.ProductName" />
+                                                                    }
+                                                                }
+                                                            </a>
+
+                                                            <div class="product-action">
+                                                                <div class="addto-wrap">
+                                                                    <a class="add-wishlist" href="@Url.Action("Wishlist", new { id = product.ProductId })" title="Add to wishlist">
+                                                                        <i class="icon-heart icon"></i>
+                                                                    </a>
+                                                                    <a class="add-compare" href="@Url.Action("Compare", new { id = product.ProductId })" title="Add to compare">
+                                                                        <i class="icon-shuffle icon"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="product-desc">
+                                                            <div class="product-info">
+                                                                <h4 class="title"><a href="@Url.Action("Details", new { id = product.ProductId })">@product.ProductName</a></h4>
+                                                                <div class="star-content">
+                                                                    <i class="ion-md-star"></i>
+                                                                    <i class="ion-md-star"></i>
+                                                                    <i class="ion-md-star"></i>
+                                                                    <i class="ion-md-star"></i>
+                                                                    <i class="ion-md-star"></i>
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="product-footer">
+                                                                <a class="btn-product-add" href="@Url.Action("AddToCart", new { id = product.ProductId })">Add to cart</a>
+                                                                <a class="btn-quick-view" href="javascript:;" title="Quick view">Quick view</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                    <!-- Pagination Controls -->
+                                    <div class="pagination-wrapper">
+                                        @if (ViewBag.TotalPages > 1)
+                                        {
+                                            <ul class="pagination">
+                                                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                                                {
+                                                    <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                                                        <a class="page-link" href="@Url.Action("Index", new { page = i })">@i</a>
+                                                    </li>
+                                                }
+                                            </ul>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

@@ -1,0 +1,48 @@
+﻿@model MongoWeb.Models.LoginViewModel
+
+@{
+    ViewBag.Title = "Đăng nhập";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<section>
+    <div class="container" data-padding-top="62">
+        <h4 class="fz-24 mb-25">Đăng nhập vào tài khoản của bạn</h4>
+        <div class="row">
+            <div class="col-12">
+                <div class="login-form-content">
+                    <div class="login-form">
+                        @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            <div class="form-group row">
+                                <label class="col-md-3" for="frm_email">Email</label>
+                                <div class="col-md-6">
+                                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", id = "frm_email", placeholder = "Nhập email của bạn" })
+                                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-3" for="frm_pass">Mật khẩu</label>
+                                <div class="col-md-6">
+                                    <div class="pass-content">
+                                        @Html.PasswordFor(m => m.Password, new { @class = "form-control", id = "frm_pass", placeholder = "Nhập mật khẩu của bạn" })
+                                        <span class="show-pass" onclick="togglePasswordVisibility()">Hiện</span>
+                                    </div>
+                                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group row mb-15">
+                                <div class="col-12 text-center">
+                                    <a class="btn-forgot" href="#">Quên mật khẩu?</a>
+                                    <input type="submit" class="btn-signin" value="Đăng nhập" />
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <a class="btn-create-account" href="@Url.Action("Register", "Account")">Chưa có tài khoản? Tạo một tài khoản tại đây</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

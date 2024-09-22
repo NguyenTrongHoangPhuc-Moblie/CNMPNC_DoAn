@@ -1,0 +1,46 @@
+﻿@model IEnumerable<MongoWeb.Models.Users>
+@{
+    ViewBag.Title = "QuanLyUser";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+<!-- Users Management -->
+<div class="card">
+    <div class="card-body">
+        <h3>Quản Lý User</h3>
+    </div>
+</div>
+<h5><a href="@Url.Action("ThemUser", "Admin")">Bấm vào đây để thêm User</a></h5>
+<table class="table table-bordered">
+    <tr>
+        <th>ID User</th>
+        <th>User Name</th>
+        <th>Full Name</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>PhoneNumber</th>
+        <th>Role</th>
+        <th>Address</th>
+        <th>DateRegistered</th>
+        <th>Edit</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UserId</td>
+            <td>@item.Username</td>
+            <td>@item.FullName</td>
+            <td>@item.Email</td>
+            <td>@item.Password</td>
+            <td>@item.PhoneNumber</td>
+            <td>@item.Role</td>
+            <td>@item.Address</td>
+            <td>@item.DateRegistered</td>
+            <td>
+                <a href="@Url.Action("EditUser", "Admin", new { id = item.UserId })">Update</a>
+                <a href="@Url.Action("DeleteUser", "Admin", new { id = item.UserId })">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+</div>
+
