@@ -1,0 +1,25 @@
+{
+  "product_id": "sp01",
+  "product_name": "Kem duong",
+  "brandName": "vasilin",
+  "category": "Makeup",
+  "price": 350000,
+  "productImage": [
+    "01.jpg",
+    "04-h1.jpg"
+  ],
+  "description": "Không có gì",
+  "reviews": [
+    {
+      "user": "Phát",
+      "rating": 5,
+      "comment": "Great eyeliner!"
+    },
+    {
+      "user": "Trinh",
+      "rating": 1,
+      "comment": "So bad!"
+    }
+  ],
+  "countInstock": 26
+}

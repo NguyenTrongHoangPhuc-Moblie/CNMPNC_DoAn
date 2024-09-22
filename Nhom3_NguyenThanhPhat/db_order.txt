@@ -1,0 +1,17 @@
+{
+  "order_id": "2a9a40ad-5ec6-4a95-9427-02f1432150af",
+  "email": "germax584@gmail.com",
+  "order_date": {
+    "$date": "2024-08-07T03:08:05.356Z"
+  },
+  "total_amount": "700000",
+  "items": [
+    {
+      "product_id": "sp01",
+      "quantity": 2
+    }
+  ],
+  "shipping_address": "140 Lê Trọng Tấn ",
+  "payment_method": "Tiền mặt",
+  "status": "Pending"
+}

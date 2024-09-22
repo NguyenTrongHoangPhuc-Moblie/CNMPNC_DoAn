@@ -1,0 +1,34 @@
+{
+  "user_id": "user001",
+  "username": "thanhpham",
+  "full_name": "Phạm Huỳnh Hữu Thành",
+  "email": "Phat@example.com",
+  "password": "123",
+  "phone_number": "0901234567",
+  "address": "ko\n",
+  "date_registered": {
+    "$date": "2024-07-19T08:00:00.000Z"
+  },
+  "role": "Admin",
+  "orders": [
+    {
+      "order_id": "ord001",
+      "order_date": {
+        "$date": "2024-07-19T00:00:00.000Z"
+      },
+      "total_amount": 1050000
+    },
+    {
+      "order_id": "ord002",
+      "order_date": {
+        "$date": "2024-07-18T00:00:00.000Z"
+      },
+      "total_amount": 750000
+    }
+  ],
+  "payment_methods": [
+    "Credit Card",
+    "PayPal"
+  ],
+  "active": true
+}
