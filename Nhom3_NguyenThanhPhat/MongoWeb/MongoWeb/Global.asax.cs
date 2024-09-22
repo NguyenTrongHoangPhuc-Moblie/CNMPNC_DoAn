@@ -9,6 +9,7 @@ using System.Web.Routing;
 using System.Linq;
 using System.Collections.Generic;
 using System;
+using System.Web.Http;
 
 namespace MongoWeb
 {
@@ -17,7 +18,8 @@ namespace MongoWeb
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            //RouteConfig.RegisterRoutes(RouteTable.Routes);
+            GlobalConfiguration.Configure(WebApiConfig.Register);
 
             try
             {

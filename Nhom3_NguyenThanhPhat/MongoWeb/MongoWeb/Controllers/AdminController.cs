@@ -8,6 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http.Headers;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -18,6 +19,7 @@ namespace MongoWeb.Controllers
         private AddTodo addTodo;
         private GetAll getAllTodos;
         private UserService userService;
+        private readonly ProductService _productService;
         // GET: Admin
         private readonly TodoRepository _repository;
 
@@ -27,6 +29,7 @@ namespace MongoWeb.Controllers
             this.getAllTodos = getAllTodos;
             this.userService = userService;
             _repository = repository;
+            _productService = new ProductService();
         }
         public ActionResult QuanLy()
         {
@@ -331,6 +334,13 @@ namespace MongoWeb.Controllers
             var orders = _repository.GetAllOrdersAdmin();
 
             return View(orders);
+        }
+
+
+        public async Task<ActionResult> WareHouses()
+        {
+            var products = await _productService.GetProductsAsync();
+            return View(products); // Đảm bảo trả về đúng model
         }
 
     }
