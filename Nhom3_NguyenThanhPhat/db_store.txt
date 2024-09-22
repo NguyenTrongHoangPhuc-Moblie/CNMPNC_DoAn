@@ -1,0 +1,31 @@
+{
+    "_id": "kho001",
+    "ngay_nhap": "2024-09-10",
+    "tong_tien": 22500000,
+    "danh_sach_san_pham": [
+        {
+            "ten_san_pham": "Son Môi X",
+            "ma_so": "SM123",
+            "so_luong": 50,
+            "gia_tien": 150000,
+            "ngay_het_han": "2024-12-01",
+            "ngay_san_xuat": "2024-08-01"  // Thêm ngày sản xuất
+        },
+        {
+            "ten_san_pham": "Kem Dưỡng Da",
+            "ma_so": "KD456",
+            "so_luong": 30,
+            "gia_tien": 250000,
+            "ngay_het_han": "2025-01-15",
+            "ngay_san_xuat": "2024-07-15"  // Thêm ngày sản xuất
+        },
+        {
+            "ten_san_pham": "Nước Hoa",
+            "ma_so": "NH789",
+            "so_luong": 20,
+            "gia_tien": 500000,
+            "ngay_het_han": "2024-11-20",
+            "ngay_san_xuat": "2024-06-30"  // Thêm ngày sản xuất
+        }
+    ]
+}
