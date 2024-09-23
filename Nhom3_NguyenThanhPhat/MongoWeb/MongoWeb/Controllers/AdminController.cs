@@ -23,7 +23,7 @@ namespace MongoWeb.Controllers
         private readonly AddTodo addTodo;
         private readonly GetAll getAllTodos;
         private readonly UserService userService;
-        private readonly ProductService _productService;
+        
         private readonly TodoRepository _repository;
         private readonly HttpClient _httpClient;
 
@@ -33,7 +33,6 @@ namespace MongoWeb.Controllers
             this.getAllTodos = getAllTodos;
             this.userService = userService;
             _repository = repository;
-            _productService = new ProductService();
 
             _httpClient = new HttpClient
             {
@@ -77,6 +76,44 @@ namespace MongoWeb.Controllers
                 return new List<Products>(); // Xử lý theo cách bạn muốn
             }
         }
+
+        public async Task<ActionResult> ProductStore()
+        {
+            var listProducts = await GetProductsStoreFromApi();
+            return View(listProducts);
+        }
+
+        private async Task<List<ProductStore>> GetProductsStoreFromApi()
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync("api/productstore");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+                    var productstore = JsonConvert.DeserializeObject<List<ProductStore>>(json);
+                    return productstore;
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine($"Error: {response.StatusCode}, Content: {errorContent}");
+                    return new List<ProductStore>(); // Xử lý theo cách bạn muốn
+                }
+            }
+            catch (HttpRequestException httpEx)
+            {
+                Console.WriteLine($"Request error: {httpEx.Message}");
+                return new List<ProductStore>(); // Xử lý theo cách bạn muốn
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                return new List<ProductStore>(); // Xử lý theo cách bạn muốn
+            }
+        }
+
         public ActionResult QuanLyUser()
         {
             var listusers = userService.GetAllUser();
@@ -378,11 +415,7 @@ namespace MongoWeb.Controllers
         }
 
 
-        public async Task<ActionResult> WareHouses()
-        {
-            var products = await _productService.GetProductsAsync();
-            return View(products); // Đảm bảo trả về đúng model
-        }
+        
 
     }
 }

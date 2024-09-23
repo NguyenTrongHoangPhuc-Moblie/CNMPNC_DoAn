@@ -1,0 +1,58 @@
+﻿@model IEnumerable<MongoWeb.Models.ProductStore>
+
+@{
+    ViewBag.Title = "Quản Lý Kho Sản Phẩm";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Product Store Management -->
+    <div class="card">
+        <div class="card-body">
+            <h3>Quản Lý Kho Sản Phẩm</h3>
+        </div>
+    </div>
+
+    <h5><a href="@Url.Action("ThemSanPham", "Admin")">Thêm sản phẩm mới</a></h5>
+
+    @foreach (var store in Model)
+    {
+        <div class="card mt-3">
+            <div class="card-header">
+                <h4>Kho: @store.IdStore (Ngày nhập: @store.NgayNhap.ToString("dd/MM/yyyy"))</h4>
+                <p><strong>Tổng tiền:</strong> @store.TongTien.ToString("C")</p>
+            </div>
+
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Số lượng</th>
+                            <th>Giá tiền</th>
+                            <th>Ngày hết hạn</th>
+                            <th>Ngày sản xuất</th>
+                            <th>Chỉnh sửa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var product in store.DanhSachSanPham)
+                        {
+                            <tr>
+                                <td>@product.ProductName</td>
+                                <td>@product.SoLuong</td>
+                                <td>@product.GiaTien.ToString("C")</td>
+                                <td>@product.NgayHetHan.ToString("dd/MM/yyyy")</td>
+                                <td>@product.NgaySanXuat.ToString("dd/MM/yyyy")</td>
+                                <td>
+                                    <a href="@Url.Action("Edit", "Admin", new { id = store.Id, productName = product.ProductName })">Update</a> |
+                                    <a href="@Url.Action("Delete", "Admin", new { id = store.Id, productName = product.ProductName })">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+    }

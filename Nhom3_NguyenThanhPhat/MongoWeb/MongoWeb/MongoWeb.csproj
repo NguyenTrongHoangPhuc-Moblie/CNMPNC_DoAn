@@ -449,6 +449,7 @@
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\ProductStoreApiController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -458,6 +459,7 @@
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\ProductModel.cs" />
     <Compile Include="Models\Products.cs" />
+    <Compile Include="Models\ProductStore.cs" />
     <Compile Include="Models\Register.cs" />
     <Compile Include="Models\Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -467,7 +469,6 @@
     <Compile Include="Services\GetAll.cs" />
     <Compile Include="Services\Login.cs" />
     <Compile Include="Services\Orderservice.cs" />
-    <Compile Include="Services\ProductService.cs" />
     <Compile Include="Services\Register.cs" />
     <Compile Include="Services\UserService.cs" />
   </ItemGroup>
@@ -529,6 +530,7 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Admin\OrderList.cshtml" />
     <Content Include="Views\Admin\WareHouses.cshtml" />
+    <Content Include="Views\Admin\ProductStore.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

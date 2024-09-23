@@ -37,11 +37,13 @@ namespace MongoWeb
                 var todoCollection = database.GetCollection<Products>("Products");
                 var userCollection = database.GetCollection<Users>("Users");
                 var orderCollection = database.GetCollection<Order>("Orders");
+                var storeCollection = database.GetCollection<ProductStore>("Stores");
 
                 // Register MongoDB collections
                 container.RegisterInstance(todoCollection);
                 container.RegisterInstance(userCollection);
                 container.RegisterInstance(orderCollection);
+                container.RegisterInstance(storeCollection);
 
                 // Register MyDependencyResolver
                 container.RegisterType<HomeController>();

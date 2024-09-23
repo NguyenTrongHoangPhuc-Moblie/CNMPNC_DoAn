@@ -14,12 +14,15 @@ namespace MongoWeb.Controllers
     public class ProductsController : ApiController
     {
         private readonly IMongoCollection<Products> _productsCollection;
+       
 
         public ProductsController()
         {
             var client = new MongoClient("mongodb://localhost:27017"); // Kết nối đến MongoDB
             var database = client.GetDatabase("Cua_Hang_My_Pham"); // Đổi tên cơ sở dữ liệu của bạn ở đây
-            _productsCollection = database.GetCollection<Products>("Products"); // Đổi tên collection của bạn nếu cần
+            _productsCollection = database.GetCollection<Products>("Products");
+          
+            // Đổi tên collection của bạn nếu cần
         }
 
         // API Get: /api/products
@@ -30,6 +33,7 @@ namespace MongoWeb.Controllers
             var products = await _productsCollection.Find(product => true).ToListAsync();
             return Ok(products);
         }
+       
 
         // API Get: /api/products/{id}
         [HttpGet]
@@ -43,6 +47,8 @@ namespace MongoWeb.Controllers
             }
             return Ok(product);
         }
+       
+
 
         // API Post: /api/products
         [HttpPost]
@@ -52,30 +58,6 @@ namespace MongoWeb.Controllers
             await _productsCollection.InsertOneAsync(product);
             return CreatedAtRoute("DefaultApi", new { id = product.Id }, product);
         }
-        //// API Put: /api/products/{id}
-        //[HttpPut]
-        //[Route("{id}")]
-        //public async Task<IHttpActionResult> UpdateProduct(string id, [FromBody] Products product)
-        //{
-        //    var result = await _productsCollection.ReplaceOneAsync(p => p.Id == id, product);
-        //    if (result.MatchedCount == 0)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return Ok(product);
-        //}
-
-        //// API Delete: /api/products/{id}
-        //[HttpDelete]
-        //[Route("{id}")]
-        //public async Task<IHttpActionResult> DeleteProduct(string id)
-        //{
-        //    var result = await _productsCollection.DeleteOneAsync(p => p.Id == id);
-        //    if (result.DeletedCount == 0)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return StatusCode(HttpStatusCode.NoContent);
-        //}
+        
     }
 }
