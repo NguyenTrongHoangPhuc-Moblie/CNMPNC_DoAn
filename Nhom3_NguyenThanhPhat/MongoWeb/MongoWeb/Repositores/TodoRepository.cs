@@ -355,18 +355,18 @@ namespace MongoWeb.Repositores
             HttpContext.Current.Session["Cart"] = cartItems;
         }
 
-        public void RemoveFromCart(ObjectId userId, ObjectId productId)
-        {
-            var cartItems = GetCartItems();
-            var cartItem = cartItems.FirstOrDefault(item => item.Product.Id == productId);
+        //public void RemoveFromCart(ObjectId userId, ObjectId productId)
+        //{
+        //    var cartItems = GetCartItems();
+        //    var cartItem = cartItems.FirstOrDefault(item => item.Product.Id == productId);
 
-            if (cartItem != null)
-            {
-                cartItems.Remove(cartItem);
-            }
+        //    if (cartItem != null)
+        //    {
+        //        cartItems.Remove(cartItem);
+        //    }
 
-            HttpContext.Current.Session["Cart"] = cartItems;
-        }
+        //    HttpContext.Current.Session["Cart"] = cartItems;
+        //}
 
         public void ClearCart(ObjectId userId)
         {

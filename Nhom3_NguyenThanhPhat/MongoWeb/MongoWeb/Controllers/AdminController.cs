@@ -7,21 +7,25 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using MongoDB.Bson;
+using System.Web.Services.Description;
+using Newtonsoft.Json;
 
 namespace MongoWeb.Controllers
 {
     public class AdminController : Controller
     {
-        private AddTodo addTodo;
-        private GetAll getAllTodos;
-        private UserService userService;
+        private readonly AddTodo addTodo;
+        private readonly GetAll getAllTodos;
+        private readonly UserService userService;
         private readonly ProductService _productService;
-        // GET: Admin
         private readonly TodoRepository _repository;
+        private readonly HttpClient _httpClient;
 
         public AdminController(AddTodo addTodo, GetAll getAllTodos, UserService userService, TodoRepository repository)
         {
@@ -30,11 +34,48 @@ namespace MongoWeb.Controllers
             this.userService = userService;
             _repository = repository;
             _productService = new ProductService();
+
+            _httpClient = new HttpClient
+            {
+                BaseAddress = new Uri("https://localhost:44389/") // Thay đổi nếu sử dụng HTTPS
+            };
         }
-        public ActionResult QuanLy()
+
+        public async Task<ActionResult> QuanLy()
         {
-            var listproducts = getAllTodos.Excute();
-            return View(listproducts);
+            var listProducts = await GetProductsFromApi();
+            return View(listProducts);
+        }
+
+        private async Task<List<Products>> GetProductsFromApi()
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync("api/products");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+                    var products = JsonConvert.DeserializeObject<List<Products>>(json);
+                    return products;
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine($"Error: {response.StatusCode}, Content: {errorContent}");
+                    return new List<Products>(); // Xử lý theo cách bạn muốn
+                }
+            }
+            catch (HttpRequestException httpEx)
+            {
+                Console.WriteLine($"Request error: {httpEx.Message}");
+                return new List<Products>(); // Xử lý theo cách bạn muốn
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                return new List<Products>(); // Xử lý theo cách bạn muốn
+            }
         }
         public ActionResult QuanLyUser()
         {

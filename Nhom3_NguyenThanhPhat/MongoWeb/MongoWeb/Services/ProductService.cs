@@ -12,10 +12,10 @@ namespace MongoWeb.Services
 
         public ProductService()
         {
-            _httpClient = new HttpClient
-            {
-                BaseAddress = new Uri("http://localhost:44389/api/products/") // Thay thế your_port bằng cổng thực tế của bạn
-            };
+            //_httpClient = new HttpClient
+            //{
+            //    BaseAddress = new Uri("http://localhost:44389/api/products/") // Thay thế your_port bằng cổng thực tế của bạn
+            //};
         }
 
         // Lấy danh sách sản phẩm

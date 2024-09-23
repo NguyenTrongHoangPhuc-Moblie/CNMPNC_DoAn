@@ -11,7 +11,8 @@ namespace MongoWeb.Models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public ObjectId Id { get; set; }
+        public string Id { get; set; } // Đổi ObjectId thành string
+
         [BsonElement("product_id")]
         public string ProductId { get; set; }
 
@@ -39,6 +40,7 @@ namespace MongoWeb.Models
         [BsonElement("countInstock")]
         public int CountInStock { get; set; }
     }
+
 
     public class Review
     {
