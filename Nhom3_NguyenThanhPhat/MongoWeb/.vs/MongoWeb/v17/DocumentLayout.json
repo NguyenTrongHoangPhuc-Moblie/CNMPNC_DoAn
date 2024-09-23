@@ -1,177 +1,169 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\",
+  "WorkspaceRootPath": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|d:\\hufi\\hk_7\\cnpmnc\\doan_xaydungwebsitebanmypham\\cnmpnc_doan\\nhom3_nguyenthanhphat\\mongoweb\\mongoweb\\repositores\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\repositores\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\cart\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\cart\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|d:\\huuthanh\\tailieu\\hk7\\cnpmnc\\source\\cnmpnc_doan\\nhom3_nguyenthanhphat\\mongoweb\\mongoweb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\shared\\_layoutpage2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\shared\\_layoutpage2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|d:\\huuthanh\\tailieu\\hk7\\cnpmnc\\source\\cnmpnc_doan\\nhom3_nguyenthanhphat\\mongoweb\\mongoweb\\repositores\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\repositores\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\services\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\services\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\quanlyuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\quanlyuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\quanly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\quanly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\cart\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\cart\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\themsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\themsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\services\\addtodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\services\\addtodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\assets\\img\\shop\\product-brand-01.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\assets\\img\\shop\\product-brand-01.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\assets\\img\\option.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\assets\\img\\option.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\services\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\services\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\services\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\services\\addtodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\services\\addtodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\services\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\services\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\cart\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\cart\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\shared\\_layoutpage2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\shared\\_layoutpage2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\services\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\services\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\quanlyuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\quanlyuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\quanly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\quanly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\cart\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\cart\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\themsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\themsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\assets\\img\\shop\\product-brand-01.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\assets\\img\\shop\\product-brand-01.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\assets\\img\\option.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\assets\\img\\option.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\themuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\themuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\themuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\mongoweb\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2A94C65-62F3-4EA0-8D46-D0926CE353A4}|MongoWeb\\MongoWeb.csproj|solutionrelative:mongoweb\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -182,139 +174,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "option.png",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\assets\\img\\option.png",
-              "RelativeDocumentMoniker": "MongoWeb\\assets\\img\\option.png",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\assets\\img\\option.png",
-              "RelativeToolTip": "MongoWeb\\assets\\img\\option.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-09-18T13:36:33.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Web.config",
-              "RelativeDocumentMoniker": "MongoWeb\\Web.config",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Web.config",
-              "RelativeToolTip": "MongoWeb\\Web.config",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-18T13:36:33.383Z",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "MongoWeb\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "MongoWeb\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAswIoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T20:51:19.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "Orderservice.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Orderservice.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Orderservice.cs",
               "RelativeDocumentMoniker": "MongoWeb\\Services\\Orderservice.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Orderservice.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Orderservice.cs",
               "RelativeToolTip": "MongoWeb\\Services\\Orderservice.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAkwEIAAAADAAAA",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwEIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:36:33.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Register.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Register.cs",
-              "RelativeDocumentMoniker": "MongoWeb\\Services\\Register.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Register.cs",
-              "RelativeToolTip": "MongoWeb\\Services\\Register.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:36:33.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "web.config",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\web.config",
-              "RelativeDocumentMoniker": "MongoWeb\\Views\\web.config",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\web.config",
-              "RelativeToolTip": "MongoWeb\\Views\\web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-18T13:36:33.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "MongoWeb\\App_Start\\RouteConfig.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "MongoWeb\\App_Start\\RouteConfig.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:36:33.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Login.cs",
-              "RelativeDocumentMoniker": "MongoWeb\\Services\\Login.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Login.cs",
-              "RelativeToolTip": "MongoWeb\\Services\\Login.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAgwCEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:36:33.411Z"
+              "WhenOpened": "2024-09-18T13:36:33.388Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MongoWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "MongoWeb\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAAwP4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:36:33.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddTodo.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\AddTodo.cs",
+              "RelativeDocumentMoniker": "MongoWeb\\Services\\AddTodo.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\AddTodo.cs",
+              "RelativeToolTip": "MongoWeb\\Services\\AddTodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:36:36.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Login.cs",
+              "RelativeDocumentMoniker": "MongoWeb\\Services\\Login.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Login.cs",
+              "RelativeToolTip": "MongoWeb\\Services\\Login.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:36:33.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "MongoWeb\\Services\\UserService.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\UserService.cs",
+              "RelativeToolTip": "MongoWeb\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:36:33.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TodoRepository.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Repositores\\TodoRepository.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Repositores\\TodoRepository.cs",
               "RelativeDocumentMoniker": "MongoWeb\\Repositores\\TodoRepository.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Repositores\\TodoRepository.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Repositores\\TodoRepository.cs",
               "RelativeToolTip": "MongoWeb\\Repositores\\TodoRepository.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAqwE8AAAAAAAAA",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAiwMoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T13:36:35.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MongoWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MongoWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAgwFsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T13:36:33.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MongoWeb\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MongoWeb\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAUwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:36:33.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Global.asax.cs",
+              "RelativeDocumentMoniker": "MongoWeb\\Global.asax.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Global.asax.cs",
+              "RelativeToolTip": "MongoWeb\\Global.asax.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwDgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:36:36.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "option.png",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\assets\\img\\option.png",
+              "RelativeDocumentMoniker": "MongoWeb\\assets\\img\\option.png",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\assets\\img\\option.png",
+              "RelativeToolTip": "MongoWeb\\assets\\img\\option.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-18T13:36:33.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Web.config",
+              "RelativeDocumentMoniker": "MongoWeb\\Web.config",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Web.config",
+              "RelativeToolTip": "MongoWeb\\Web.config",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-18T13:36:33.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "MongoWeb\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "MongoWeb\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:36:33.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "product-brand-01.jpg",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\assets\\img\\shop\\product-brand-01.jpg",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\assets\\img\\shop\\product-brand-01.jpg",
               "RelativeDocumentMoniker": "MongoWeb\\assets\\img\\shop\\product-brand-01.jpg",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\assets\\img\\shop\\product-brand-01.jpg",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\assets\\img\\shop\\product-brand-01.jpg",
               "RelativeToolTip": "MongoWeb\\assets\\img\\shop\\product-brand-01.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2024-09-18T13:36:33.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "MongoWeb\\Services\\UserService.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\UserService.cs",
-              "RelativeToolTip": "MongoWeb\\Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:36:33.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "OrderList.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\OrderList.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\OrderList.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Admin\\OrderList.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\OrderList.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\OrderList.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Admin\\OrderList.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAQwBoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -322,11 +368,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Account\\Register.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Account\\Register.cshtml",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAABoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -334,11 +380,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 39,
               "Title": "DeleteUser.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\DeleteUser.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\DeleteUser.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Admin\\DeleteUser.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\DeleteUser.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\DeleteUser.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Admin\\DeleteUser.cshtml",
               "ViewState": "AQIAAD4AAAAAAAAAAAAgwFMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -346,11 +392,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 40,
               "Title": "EditUser.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\EditUser.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\EditUser.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Admin\\EditUser.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\EditUser.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Admin\\EditUser.cshtml",
               "ViewState": "AQIAADwAAAAAAAAAAAAgwFEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -358,11 +404,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 37,
               "Title": "ThemUser.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\ThemUser.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\ThemUser.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Admin\\ThemUser.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\ThemUser.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\ThemUser.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Admin\\ThemUser.cshtml",
               "ViewState": "AQIAAD4AAAAAAAAAAAAgwFMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -370,11 +416,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 36,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\Delete.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\Delete.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Admin\\Delete.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\Delete.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\Delete.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Admin\\Delete.cshtml",
               "ViewState": "AQIAAD0AAAAAAAAAAAAgwFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -382,11 +428,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\Edit.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\Edit.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Admin\\Edit.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\Edit.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Admin\\Edit.cshtml",
               "ViewState": "AQIAAEkAAAAAAAAAAAAgwF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -394,11 +440,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "ThemSanPham.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\ThemSanPham.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\ThemSanPham.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Admin\\ThemSanPham.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\ThemSanPham.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\ThemSanPham.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Admin\\ThemSanPham.cshtml",
               "ViewState": "AQIAACcAAAAAAAAAAAAAACcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -406,11 +452,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "QuanLyUser.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\QuanLyUser.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\QuanLyUser.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Admin\\QuanLyUser.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\QuanLyUser.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\QuanLyUser.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Admin\\QuanLyUser.cshtml",
               "ViewState": "AQIAABkAAAAAAAAAAAAgwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -418,11 +464,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "QuanLy.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\QuanLy.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\QuanLy.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Admin\\QuanLy.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\QuanLy.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Admin\\QuanLy.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Admin\\QuanLy.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAQwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -430,11 +476,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "OrderList.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\OrderList.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\OrderList.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Cart\\OrderList.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\OrderList.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\OrderList.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Cart\\OrderList.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -442,11 +488,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "OrderConfirmation.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\OrderConfirmation.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\OrderConfirmation.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Cart\\OrderConfirmation.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\OrderConfirmation.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\OrderConfirmation.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Cart\\OrderConfirmation.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -454,11 +500,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "PlaceOrder.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\PlaceOrder.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\PlaceOrder.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Cart\\PlaceOrder.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\PlaceOrder.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\PlaceOrder.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Cart\\PlaceOrder.cshtml",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -466,11 +512,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 38,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\Index.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Cart\\Index.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Cart\\Index.cshtml",
               "ViewState": "AQIAADgAAAAAAAAAAAAgwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -478,11 +524,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Home\\Login.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Home\\Login.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Home\\Login.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Home\\Login.cshtml",
               "ViewState": "AQIAAA4AAAAAAAAAAAAjwBYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -490,11 +536,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Home\\Details.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Home\\Details.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Home\\Details.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Home\\Details.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Home\\Details.cshtml",
               "ViewState": "AQIAAD0AAAAAAAAAAAAgwFQAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -502,48 +548,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MongoWeb\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MongoWeb\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAgwFsAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-09-18T13:36:33.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "MongoWeb\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "MongoWeb\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAOEAAAAAAAAAAAAiwAMBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:36:33.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\CartController.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "MongoWeb\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\CartController.cs",
               "RelativeToolTip": "MongoWeb\\Controllers\\CartController.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAtwIEAAAAVAAAA",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAtwIEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T13:36:33.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "MongoWeb\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\AccountController.cs",
               "RelativeToolTip": "MongoWeb\\Controllers\\AccountController.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAgwCsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -551,23 +573,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MongoWeb\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MongoWeb\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwBkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:36:33.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "_LayoutPage2.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Shared\\_LayoutPage2.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Shared\\_LayoutPage2.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Shared\\_LayoutPage2.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Shared\\_LayoutPage2.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Shared\\_LayoutPage2.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Shared\\_LayoutPage2.cshtml",
               "ViewState": "AQIAACkAAAAAAAAAAAAQwDsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -575,11 +585,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "_LayoutPage1.cshtml",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Shared\\_LayoutPage1.cshtml",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Shared\\_LayoutPage1.cshtml",
               "RelativeDocumentMoniker": "MongoWeb\\Views\\Shared\\_LayoutPage1.cshtml",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Views\\Shared\\_LayoutPage1.cshtml",
               "RelativeToolTip": "MongoWeb\\Views\\Shared\\_LayoutPage1.cshtml",
               "ViewState": "AQIAAK8AAAAAAAAAAAAjwK4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -587,11 +597,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Cart.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Cart.cs",
               "RelativeDocumentMoniker": "MongoWeb\\Services\\Cart.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Cart.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\Cart.cs",
               "RelativeToolTip": "MongoWeb\\Services\\Cart.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAhwBMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -599,35 +609,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AddTodo.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\AddTodo.cs",
-              "RelativeDocumentMoniker": "MongoWeb\\Services\\AddTodo.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Services\\AddTodo.cs",
-              "RelativeToolTip": "MongoWeb\\Services\\AddTodo.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:36:36.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Global.asax.cs",
-              "RelativeDocumentMoniker": "MongoWeb\\Global.asax.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Global.asax.cs",
-              "RelativeToolTip": "MongoWeb\\Global.asax.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAzwCIAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
-              "WhenOpened": "2024-09-18T13:36:36.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Users.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Users.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Users.cs",
               "RelativeDocumentMoniker": "MongoWeb\\Models\\Users.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Users.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Users.cs",
               "RelativeToolTip": "MongoWeb\\Models\\Users.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAYwCEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -635,11 +621,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Register.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Register.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Register.cs",
               "RelativeDocumentMoniker": "MongoWeb\\Models\\Register.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Register.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Register.cs",
               "RelativeToolTip": "MongoWeb\\Models\\Register.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAA5wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -647,11 +633,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Products.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Products.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Products.cs",
               "RelativeDocumentMoniker": "MongoWeb\\Models\\Products.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Products.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Products.cs",
               "RelativeToolTip": "MongoWeb\\Models\\Products.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -659,11 +645,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ProductModel.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\ProductModel.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\ProductModel.cs",
               "RelativeDocumentMoniker": "MongoWeb\\Models\\ProductModel.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\ProductModel.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\ProductModel.cs",
               "RelativeToolTip": "MongoWeb\\Models\\ProductModel.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -671,11 +657,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Order.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Order.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Order.cs",
               "RelativeDocumentMoniker": "MongoWeb\\Models\\Order.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Order.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\Order.cs",
               "RelativeToolTip": "MongoWeb\\Models\\Order.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -683,27 +669,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\LoginViewModel.cs",
+              "DocumentMoniker": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "MongoWeb\\Models\\LoginViewModel.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\HUUTHANH\\TaiLieu\\HK7\\CNPMNC\\Source\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\Models\\LoginViewModel.cs",
               "RelativeToolTip": "MongoWeb\\Models\\LoginViewModel.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T13:36:36.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ITodoRepository.cs",
-              "DocumentMoniker": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\ITodoRepository.cs",
-              "RelativeDocumentMoniker": "MongoWeb\\ITodoRepository.cs",
-              "ToolTip": "D:\\HUFI\\HK_7\\CNPMNC\\DoAn_XayDungWebsiteBanMyPham\\CNMPNC_DoAn\\Nhom3_NguyenThanhPhat\\MongoWeb\\MongoWeb\\ITodoRepository.cs",
-              "RelativeToolTip": "MongoWeb\\ITodoRepository.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAIA0wDcAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:36:36.219Z"
             }
           ]
         }

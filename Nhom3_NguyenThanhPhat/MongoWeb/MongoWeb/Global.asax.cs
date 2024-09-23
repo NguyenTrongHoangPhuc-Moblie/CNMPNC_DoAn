@@ -9,6 +9,9 @@ using System.Web.Routing;
 using System.Linq;
 using System.Collections.Generic;
 using System;
+using System.Web.Http;
+using MongoWeb.Services;
+using Unity.Lifetime;
 
 namespace MongoWeb
 {
@@ -17,8 +20,9 @@ namespace MongoWeb
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-
+            //RouteConfig.RegisterRoutes(RouteTable.Routes);
+            GlobalConfiguration.Configure(WebApiConfig.Register);
+            UnityConfig.RegisterComponents();
             try
             {
                 // Initialize Unity container
@@ -26,7 +30,7 @@ namespace MongoWeb
 
                 // Register repositories and services
                 container.RegisterType<ITodoRepository, TodoRepository>();
-                container.RegisterType<Models.Register>(); // Ensure this matches your actual service
+                //container.RegisterType<Models.Register>(); // Ensure this matches your actual service
 
                 // Initialize MongoDB connection
                 var client = new MongoClient("mongodb://localhost:27017/");
@@ -44,9 +48,13 @@ namespace MongoWeb
                 container.RegisterType<HomeController>();
                 container.RegisterType<CartController>();
                 container.RegisterType<AccountController>();
+                //container.RegisterType<GetAll>();
+                container.RegisterType<GetAll, GetAll>(new HierarchicalLifetimeManager());
+
+                GlobalConfiguration.Configuration.DependencyResolver = new Unity.WebApi.UnityDependencyResolver(container);
 
                 // Thiết lập Dependency Resolver
-                DependencyResolver.SetResolver(new UnityDependencyResolver(container));
+                //DependencyResolver.SetResolver(new UnityDependencyResolver(container));
             }
             catch (MongoConnectionException ex)
             {
