@@ -28,6 +28,11 @@ namespace MongoWeb.Controllers
         public async Task<IHttpActionResult> GetProductsStore()
         {
             var productstore = await _productstoreCollection.Find(product => true).ToListAsync();
+
+            foreach (var store in productstore)
+            {
+                store.TongTien = store.DanhSachSanPham.Sum(product => product.GiaTien * product.SoLuong);
+            }
             return Ok(productstore);
         }
     }

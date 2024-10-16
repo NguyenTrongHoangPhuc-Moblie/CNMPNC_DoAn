@@ -22,6 +22,9 @@ namespace MongoWeb.Models
 
         [BsonElement("danh_sach_san_pham")]
         public List<Product> DanhSachSanPham { get; set; } // Danh sách các sản phẩm nhúng
+        
+        [BsonElement("NhaCungCap")]
+        public string NhaCungCap { get; set; }
     }
 
     public class Product

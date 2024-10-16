@@ -531,6 +531,7 @@
     <Content Include="Views\Admin\OrderList.cshtml" />
     <Content Include="Views\Admin\WareHouses.cshtml" />
     <Content Include="Views\Admin\ProductStore.cshtml" />
+    <Content Include="Views\Admin\StockIn.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

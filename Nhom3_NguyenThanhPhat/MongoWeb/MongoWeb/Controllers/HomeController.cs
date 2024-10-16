@@ -156,64 +156,6 @@ namespace MongoWeb.Controllers
             return View(model);
         }
 
-
-        //public ActionResult Login(LoginViewModel model)
-        //{
-        //    //var user = todoRepository.GetUserByEmail(model.Email);
-        //    if (ModelState.IsValid)
-        //    {
-        //        bool isAuthenticated = login.Authenticate(model.Email, model.Password);
-
-        //        if (isAuthenticated)
-        //        {
-        //            if (user.Role.Equals("Admin"))
-        //            {
-        //                Session["UserName"] = model.Email;
-        //                ViewBag.UserName = Session["UserName"] as string ?? "Guest";
-        //                return RedirectToAction("Quanly", "Admin");
-        //            }
-        //            else
-        //            {
-        //                //Lưu thông tin người dùng vào Session
-        //               Session["UserName"] = model.Email;
-
-        //                //Cập nhật ViewBag.UserName
-        //                ViewBag.UserName = Session["UserName"] as string ?? "Guest";
-
-        //                return RedirectToAction("Index", "Home");
-        //            }
-
-        //        }
-
-        //        else
-        //        {
-        //            ModelState.AddModelError("", "Đăng nhập không thành công.");
-        //        }
-        //    }
-        //    return View(model);
-        //}
-
-        //public ActionResult Logout(LoginViewModel model)
-        //{
-
-        //    if (ModelState.IsValid)
-        //    {
-        //        bool isAuthenticated = login.Authenticate(model.Email, model.Password);
-        //        if (isAuthenticated)
-        //        {
-
-        //            // Lưu thông tin người dùng vào Session hoặc Cookie nếu cần
-        //            // Ví dụ: Session["User"] = user;
-
-        //            return RedirectToAction("Index", "Home");
-        //        }
-        //        else
-        //        {
-        //            ModelState.AddModelError("", "Invalid login attempt.");
-        //        }
-        //    }
-        //    return View(model);
-        //}
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Logout()

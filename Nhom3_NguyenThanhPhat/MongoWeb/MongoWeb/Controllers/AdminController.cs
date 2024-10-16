@@ -182,6 +182,33 @@ namespace MongoWeb.Controllers
 
             return View(product);
         }
+        public ActionResult StockIn()
+        {
+            return View();
+        }
+
+        [HttpPost, ActionName("StockIn")]
+        public ActionResult StockIn(ProductStore stockEntry)
+        {
+            if (!ModelState.IsValid) 
+            {
+                return View(stockEntry); 
+            }
+
+            try
+            {
+                _repository.StockIn(stockEntry); 
+                return RedirectToAction("ProductStore"); 
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", ex.Message); 
+                return View(stockEntry); 
+            }
+        }
+
+
+
         private string GenerateNewProductId(string lastProductId)
         {
             if (string.IsNullOrEmpty(lastProductId))

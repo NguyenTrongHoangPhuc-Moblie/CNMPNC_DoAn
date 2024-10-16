@@ -1,0 +1,75 @@
+﻿@model MongoWeb.Models.ProductStore
+
+@{
+    ViewBag.Title = "NhapKho";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h3>Nhập Kho Sản Phẩm</h3>
+        </div>
+    </div>
+
+    @using (Html.BeginForm("StockIn", "Admin", FormMethod.Post))
+    {
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label asp-for="NgayNhap">Ngày Nhập</label>
+                @Html.TextBoxFor(m => m.NgayNhap, new { @class = "form-control", type = "date" })
+                @Html.ValidationMessageFor(m => m.NgayNhap, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <label>Nha Cung Cap</label>
+                @Html.TextBoxFor(m => m.NhaCungCap, new { @class = "form-control", placeholder = "Nhà cung cấp" })
+                @Html.ValidationMessageFor(m => m.NhaCungCap, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <h5>Danh Sách Sản Phẩm Nhập Vào</h5>
+        <div id="productList">
+            <div class="product-item">
+                <div class="form-group row my-2">
+                    <div class="col-3">
+                        <label>Product Name</label>
+                        @Html.TextBox("DanhSachSanPham[0].ProductName", null, new { @class = "form-control", placeholder = "Tên sản phẩm" })
+                    </div>
+                    <div class="col-3">
+                        <label>Số Lượng</label>
+                        @Html.TextBox("DanhSachSanPham[0].SoLuong", null, new { @class = "form-control", placeholder = "Số lượng" })
+                    </div>
+                    <div class="col-3">
+                        <label>Giá Tiền</label>
+                        @Html.TextBox("DanhSachSanPham[0].GiaTien", null, new { @class = "form-control", placeholder = "Giá tiền" })
+                    </div>
+                    <div class="col-3">
+                        <label>Ngày Hết Hạn</label>
+                        @Html.TextBox("DanhSachSanPham[0].NgayHetHan", null, new { @class = "form-control", type = "date" })
+                    </div>
+                </div>
+                <div class="form-group row my-2">
+                    <div class="col-3">
+                        <label>Ngày Sản Xuất</label>
+                        @Html.TextBox("DanhSachSanPham[0].NgaySanXuat", null, new { @class = "form-control", type = "date" })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group row my-2">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <input type="submit" class="btn btn-primary" value="Nhập Kho" />
+                <a href="@Url.Action("ProductStore", "Admin")" class="btn btn-warning">Quay lại</a>
+            </div>
+        </div>
+    }
+</div>

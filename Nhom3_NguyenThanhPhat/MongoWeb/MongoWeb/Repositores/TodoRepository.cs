@@ -14,20 +14,27 @@ namespace MongoWeb.Repositores
     {
         public readonly IMongoCollection<Products> collection;
         public readonly IMongoCollection<Users> collectionUser;
-        public readonly IMongoCollection<Order> collectionOrder; // Thêm IMongoCollection cho Order
+        public readonly IMongoCollection<Order> collectionOrder;
+        public readonly IMongoCollection<ProductStore> collectionStockEntry;
 
 
-        public TodoRepository(IMongoCollection<Products> database, IMongoCollection<Users> userCollection , IMongoCollection<Order> orderCollection)
+        public TodoRepository(IMongoCollection<Products> database, IMongoCollection<Users> userCollection , IMongoCollection<Order> orderCollection, IMongoCollection<ProductStore> stockEntryCollection)
         {
             collection = database;
             collectionUser = userCollection;
             collectionOrder = orderCollection;
+            collectionStockEntry = stockEntryCollection;
         }
         //Them sp
         public void Add(Products products)
         {
             collection.InsertOne(products);
         }
+        public void StockIn(ProductStore stockEntry)
+        {
+            collectionStockEntry.InsertOne(stockEntry); // Thêm bản ghi nhập kho mới
+        }
+
         //Lay tat ca sp
         public List<Products> GetAll()
         {
